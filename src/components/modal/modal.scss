@@ -1,0 +1,26 @@
+.modal {
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+
+    h1 {
+      margin-bottom: 0;
+    }
+    svg {
+      margin-right: 12px;
+      fill: #7dbcea;
+    }
+  }
+
+  .login-form,
+  .sign-up-form {
+    .ant-form-item {
+      margin-bottom: 2px;
+    }
+    .ant-form-item-label {
+      line-height: 17px;
+    }
+  }
+}

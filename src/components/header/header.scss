@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.ant-layout-header {
+  background: #7dbcea;
+  color: #fff;
+  align-items: center;
+  display: flex;
+
+  .logo {
+    display: inline-flex;
+    margin-right: auto;
+    svg {
+      fill:#fff
+    }
+  }
+  button {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
+
